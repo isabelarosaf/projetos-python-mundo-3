@@ -22,3 +22,15 @@ f3 = fatorial()
 print(f'Os resultados são {f1}, {f2} e {f3}')
 # resultado
 #   Os resultados sao 120, 24, 1
+
+def par(n=0):
+    if n % 2 ==0:
+        return True
+    else:
+        return False
+    
+num = int(input('Digite um número: '))
+if par(num):
+    print('É par!')
+else:
+    print('é impar')
